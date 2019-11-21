@@ -1,0 +1,52 @@
+url = 'https://m.avito.ru/sankt-peterburg/vakansii/ofitsiant_1835251238'
+headers = {
+    'User-Agent' : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36',
+    'referer': f'{url}/phone/e3ec9b81916d331a8ff85p4b0pc7022447a21e523d7dp4f88130d66919b99e380b8d7632ee1da7842c0752a4bacabba2p758?sync'
+    }
+
+session = requests.session()
+resp = session.get(url, headers=headers)
+print(resp.text)
+
+----------------------
+</script>
+    <script type="application/ld+json">{
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "industry": "Туризм, рестораны",
+    "title": "Официант",
+    "description": "В новый ресторан турецко-европейской кухни  требуется ;\nОфициант\n\nс опытом работы и знанием английского языка ! По всем вопросам писать в лс",
+    "identifier": {
+        "@type": "PropertyValue",
+        "name": "Ali Kaya",
+        "value": "1835251238"
+    },
+    "datePosted": "2019-11-05",
+    "validThrough": "2019-12-05",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Ali Kaya",
+        "sameAs": null,
+        "logo": null
+    },
+    "jobLocation": {
+        "@type": "Place",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Санкт-Петербург",
+            "addressCountry": "RU"
+        }
+    },
+    "baseSalary": {
+        "@type": "MonetaryAmount",
+        "currency": "RUB",
+        "value": {
+            "@type": "QuantitativeValue",
+            "value": 60000,
+            "unitText": "MONTH"
+        }
+    },
+    "sameAs": "https://www.avito.ru/sankt-peterburg/vakansii/ofitsiant_1835251238",
+    "experienceRequirements": "Более 1 года"
+}</script>
